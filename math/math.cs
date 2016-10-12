@@ -848,8 +848,8 @@ namespace C
         /// <remarks>
         /// <para>
         /// IEC 60559 recommends that <paramref name="fromNumber"/> be returned whenever <c><paramref name="fromNumber"/> == <paramref name="towardNumber"/></c>.
-        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nextafter"/>(-0.0, +0.0)</c>
-        /// returns <c>+0.0</c> and <c><see cref="math.nextafter"/>(+0.0, -0.0)</c> returns <c>–0.0</c>.
+        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nextafter(double, double)"/>(-0.0, +0.0)</c>
+        /// returns <c>+0.0</c> and <c><see cref="math.nextafter(double, double)"/>(+0.0, -0.0)</c> returns <c>–0.0</c>.
         /// </para>
         /// </remarks>
         public static double nextafter(double fromNumber, double towardNumber)
@@ -893,8 +893,8 @@ namespace C
         /// <remarks>
         /// <para>
         /// IEC 60559 recommends that <paramref name="fromNumber"/> be returned whenever <c><paramref name="fromNumber"/> == <paramref name="towardNumber"/></c>.
-        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nextafter"/>(-0.0, +0.0)</c>
-        /// returns <c>+0.0</c> and <c><see cref="math.nextafter"/>(+0.0, -0.0)</c> returns <c>–0.0</c>.
+        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nextafter(float, float)"/>(-0.0, +0.0)</c>
+        /// returns <c>+0.0</c> and <c><see cref="math.nextafter(float, float)"/>(+0.0, -0.0)</c> returns <c>–0.0</c>.
         /// </para>
         /// </remarks>
         public static float nextafter(float fromNumber, float towardNumber)
@@ -942,11 +942,11 @@ namespace C
         /// <remarks>
         /// <para>
         /// IEC 60559 recommends that <paramref name="fromNumber"/> be returned whenever <c><paramref name="fromNumber"/> == <paramref name="towardNumber"/></c>.
-        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nexttoward"/>(-0.0, +0.0)</c>
-        /// returns <c>+0.0</c> and <c><see cref="math.nexttoward"/>(+0.0, -0.0)</c> returns <c>–0.0</c>.
+        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nexttoward(double, double)"/>(-0.0, +0.0)</c>
+        /// returns <c>+0.0</c> and <c><see cref="math.nexttoward(double, double)"/>(+0.0, -0.0)</c> returns <c>–0.0</c>.
         /// </para>
         /// <para>
-        /// The <see cref="math.nexttoward"/> function is equivalent to the <see cref="math.nextafter"/> function.
+        /// The <see cref="math.nexttoward(double, double)"/> function is equivalent to the <see cref="math.nextafter(double, double)"/> function.
         /// </para>
         /// </remarks>
         public static double nexttoward(double fromNumber, double towardNumber)
@@ -963,11 +963,11 @@ namespace C
         /// <remarks>
         /// <para>
         /// IEC 60559 recommends that <paramref name="fromNumber"/> be returned whenever <c><paramref name="fromNumber"/> == <paramref name="towardNumber"/></c>.
-        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nexttoward"/>(-0.0, +0.0)</c>
-        /// returns <c>+0.0</c> and <c><see cref="math.nexttoward"/>(+0.0, -0.0)</c> returns <c>–0.0</c>.
+        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nexttoward(float, float)"/>(-0.0, +0.0)</c>
+        /// returns <c>+0.0</c> and <c><see cref="math.nexttoward(float, float)"/>(+0.0, -0.0)</c> returns <c>–0.0</c>.
         /// </para>
         /// <para>
-        /// The <see cref="math.nexttoward"/> function is equivalent to the <see cref="math.nextafter"/> function.
+        /// The <see cref="math.nexttoward(float, float)"/> function is equivalent to the <see cref="math.nextafter(float, float)"/> function.
         /// </para>
         /// </remarks>
         public static float nexttoward(float fromNumber, float towardNumber)
@@ -1003,11 +1003,11 @@ namespace C
         ///         <description><c>2047</c> (<c><see cref="math.DBL_EXP_MAX"/> + 1 + <see cref="math.DBL_EXP_BIAS"/></c>)</description>
         ///     </item>
         ///     <item>
-        ///         <term><c>±<see cref="IEEE754Double.MaxNormal"/></c></term>
+        ///         <term><c>±<see cref="math.DBL_MAX"/></c></term>
         ///         <description><c>2046</c> (<c><see cref="math.DBL_EXP_MAX"/> + <see cref="math.DBL_EXP_BIAS"/></c>)</description>
         ///     </item>
         ///     <item>
-        ///         <term><c>±<see cref="IEEE754Double.MinNormal"/></c></term>
+        ///         <term><c>±<see cref="math.DBL_MIN"/></c></term>
         ///         <description><c>1</c> (<c><see cref="math.DBL_EXP_MIN"/> + <see cref="math.DBL_EXP_BIAS"/></c>)</description>
         ///     </item>
         ///     <item>
@@ -1053,11 +1053,11 @@ namespace C
         ///         <description><c>255</c> (<c><see cref="math.FLT_EXP_MAX"/> + 1 + <see cref="math.FLT_EXP_BIAS"/></c>)</description>
         ///     </item>
         ///     <item>
-        ///         <term><c>±<see cref="IEEE754Single.MaxNormal"/></c></term>
+        ///         <term><c>±<see cref="math.FLT_MAX"/></c></term>
         ///         <description><c>254</c> (<c><see cref="math.FLT_EXP_MAX"/> + <see cref="math.FLT_EXP_BIAS"/></c>)</description>
         ///     </item>
         ///     <item>
-        ///         <term><c>±<see cref="IEEE754Single.MinNormal"/></c></term>
+        ///         <term><c>±<see cref="math.FLT_MIN"/></c></term>
         ///         <description><c>1</c> (<c><see cref="math.FLT_EXP_MIN"/> + <see cref="math.FLT_EXP_BIAS"/></c>)</description>
         ///     </item>
         ///     <item>
