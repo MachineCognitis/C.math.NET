@@ -7,11 +7,13 @@ using System;
 namespace C
 {
     /// <summary>
-    /// Represents <c>static</c> methods for manipulating IEEE-754 floating-point numbers.
+    /// Implements <a href="http://en.cppreference.com/w/c/numeric/math">C Standard</a> mathematical functions that are missing in the .NET framework.
     /// </summary>
     /// <remarks>
     /// <para>
-    /// This class currently supports both double and single precision floating-point numbers.
+    /// Both double and single precision functions are implemented.
+    /// All functions are static and their names follow the <a href="http://en.cppreference.com/w/c/numeric/math">C Standard</a>.
+    /// The class is named after the C header file where the functions are declared.
     /// </para>
     /// </remarks>
     /// <author email="robert.baron@videotron.ca">Robert Baron</author>
@@ -249,7 +251,7 @@ namespace C
         /// <returns>One of <see cref="math.FP_INFINITE"/>, <see cref="math.FP_NAN"/>, <see cref="math.FP_NORMAL"/>, <see cref="math.FP_SUBNORMAL"/> or <see cref="math.FP_ZERO"/>, specifying the category of <paramref name="number"/>.</returns>
         /// <remarks>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/fpclassify">fpclassify</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/fpclassify">fpclassify</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static int fpclassify(double number)
@@ -269,7 +271,7 @@ namespace C
         /// <returns>One of <see cref="math.FP_INFINITE"/>, <see cref="math.FP_NAN"/>, <see cref="math.FP_NORMAL"/>, <see cref="math.FP_SUBNORMAL"/> or <see cref="math.FP_ZERO"/>, specifying the category of <paramref name="number"/>.</returns>
         /// <remarks>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/fpclassify">fpclassify</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/fpclassify">fpclassify</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static int fpclassify(float number)
@@ -296,7 +298,7 @@ namespace C
         /// A floating-point number is finite if it zero, normal, or subnormal, but not infinite or NaN.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isfinite">isfinite</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isfinite">isfinite</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static bool isfinite(double number)
@@ -315,7 +317,7 @@ namespace C
         /// A floating-point number is finite if it zero, normal, or subnormal, but not infinite or NaN.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isfinite">isfinite</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isfinite">isfinite</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static bool isfinite(float number)
@@ -335,7 +337,7 @@ namespace C
         /// <returns><c>true</c> if <paramref name="number"/> has an infinite value, <c>false</c> otherwise.</returns>
         /// <remarks>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isinf">isinf</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isinf">isinf</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static bool isinf(double number)
@@ -350,7 +352,7 @@ namespace C
         /// <returns><c>true</c> if <paramref name="number"/> has an infinite value, <c>false</c> otherwise.</returns>
         /// <remarks>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isinf">isinf</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isinf">isinf</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static bool isinf(float number)
@@ -369,7 +371,7 @@ namespace C
         /// <returns><c>true</c> if <paramref name="number"/> is NaN, <c>false</c> otherwise.</returns>
         /// <remarks>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isnan">isnan</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isnan">isnan</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static bool isnan(double number)
@@ -384,7 +386,7 @@ namespace C
         /// <returns><c>true</c> if <paramref name="number"/> is NaN, <c>false</c> otherwise.</returns>
         /// <remarks>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isnan">isnan</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isnan">isnan</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static bool isnan(float number)
@@ -406,7 +408,7 @@ namespace C
         /// A floating-point number is normal if it is neither zero, subnormal, infinite, nor NaN.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isnormal">isnormal</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isnormal">isnormal</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static bool isnormal(double number)
@@ -426,7 +428,7 @@ namespace C
         /// A floating-point number is normal if it is neither zero, subnormal, infinite, nor NaN.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isnormal">isnormal</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isnormal">isnormal</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static bool isnormal(float number)
@@ -452,7 +454,7 @@ namespace C
         /// of the only two portable ways to examine the sign of NaN. 
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/signbit">signbit</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/signbit">signbit</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static int signbit(double number)
@@ -475,7 +477,7 @@ namespace C
         /// of the only two portable ways to examine the sign of NaN. 
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/signbit">signbit</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/signbit">signbit</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static int signbit(float number)
@@ -499,7 +501,7 @@ namespace C
         /// </summary>
         /// <param name="number">A floating-point number.</param>
         /// <param name="exponent">Reference to an <see cref="int"/> value to store the exponent to.</param>
-        /// <returns>A fraction in the range <c>[0.5, 1)</c> so that <c><paramref name="number"/> = fraction * 2^<paramref name="exponent"/></c>.</returns>
+        /// <returns>A <c>fraction</c> in the range <c>[0.5, 1)</c> so that <c><paramref name="number"/> = fraction * 2^<paramref name="exponent"/></c>.</returns>
         /// <remarks>
         /// <para>
         /// Special values are treated as follows.
@@ -519,11 +521,11 @@ namespace C
         /// The relation of <see cref="math.frexp(double, ref int)"/> to <see cref="math.logb(double)"/> and <see cref="math.scalbn(double, int)"/> is:
         /// </para>
         /// <para>
-        /// <c><paramref name="exponent"/> = (<paramref name="number"/> == 0) ? 0 : (int)(1 + <see cref="math.logb(double)"/>(<paramref name="number"/>))</c><br/>
-        /// <c>fraction = <see cref="math.scalbn(double, int)"/>(<paramref name="number"/>, -<paramref name="exponent"/>)</c>
+        /// <c><paramref name="exponent"/> = (<paramref name="number"/> == 0) ? 0 : (int)(1 + <see cref="math.logb(double)">logb</see>(<paramref name="number"/>))</c><br/>
+        /// <c>fraction = <see cref="math.scalbn(double, int)">scalbn</see>(<paramref name="number"/>, -<paramref name="exponent"/>)</c>
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/frexp">frexp</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/frexp">frexp</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -586,7 +588,7 @@ namespace C
         /// </summary>
         /// <param name="number">A floating-point number.</param>
         /// <param name="exponent">Reference to an <see cref="int"/> value to store the exponent to.</param>
-        /// <returns>A fraction in the range <c>[0.5, 1)</c> so that <c><paramref name="number"/> = fraction * 2^<paramref name="exponent"/></c>.</returns>
+        /// <returns>A <c>fraction</c> in the range <c>[0.5, 1)</c> so that <c><paramref name="number"/> = fraction * 2^<paramref name="exponent"/></c>.</returns>
         /// <remarks>
         /// <para>
         /// Special values are treated as follows.
@@ -604,11 +606,11 @@ namespace C
         /// The relation of <see cref="math.frexp(float, ref int)"/> to <see cref="math.logb(float)"/> and <see cref="math.scalbn(float, int)"/> is:
         /// </para>
         /// <para>
-        /// <c><paramref name="exponent"/> = (<paramref name="number"/> == 0) ? 0 : (int)(1 + <see cref="math.logb(float)"/>(<paramref name="number"/>))</c><br/>
-        /// <c>fraction = <see cref="math.scalbn(float, int)"/>(<paramref name="number"/>, -<paramref name="exponent"/>)</c>
+        /// <c><paramref name="exponent"/> = (<paramref name="number"/> == 0) ? 0 : (int)(1 + <see cref="math.logb(float)">logb</see>(<paramref name="number"/>))</c><br/>
+        /// <c>fraction = <see cref="math.scalbn(float, int)">scalbn</see>(<paramref name="number"/>, -<paramref name="exponent"/>)</c>
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/frexp">frexp</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/frexp">frexp</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -681,7 +683,7 @@ namespace C
         /// The unbiased exponent is such that:
         /// </para>
         /// <para>
-        /// <c><paramref name="number"/> = <see cref="math.significand(double)"/>(<paramref name="number"/>) * 2^<see cref="math.ilogb(double)"/>(<paramref name="number"/>)</c>.
+        /// <c><paramref name="number"/> = <see cref="math.significand(double)">significand</see>(<paramref name="number"/>) * 2^<see cref="math.ilogb(double)">ilogb</see>(<paramref name="number"/>)</c>.
         /// </para>
         /// <para>
         /// The return unbiased exponent is valid for all normal and subnormal numbers. Special values are treated as follows.
@@ -693,7 +695,7 @@ namespace C
         /// </list>
         /// <para>
         /// If <paramref name="number"/> is not zero, infinite, or NaN, the value returned is exactly equivalent to
-        /// <c>(<see cref="int"/>)<see cref="math.logb(double)"/>(<paramref name="number"/>)</c>. 
+        /// <c>(<see cref="int"/>)<see cref="math.logb(double)">logb</see>(<paramref name="number"/>)</c>. 
         /// </para>
         /// <para>
         /// The value of the exponent returned by <see cref="math.ilogb(double)"/> is always <c>1</c> less than the exponent retuned by
@@ -702,7 +704,7 @@ namespace C
         /// but for <see cref="math.frexp(double, ref int)"/>, the normalized significand is in the interval <c>[0.5, 1)</c>.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/ilogb">ilogb</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/ilogb">ilogb</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -783,7 +785,7 @@ namespace C
         /// The unbiased exponent is such that:
         /// </para>
         /// <para>
-        /// <c><paramref name="number"/> = <see cref="math.significand(float)"/>(<paramref name="number"/>) * 2^<see cref="math.ilogb(float)"/>(<paramref name="number"/>)</c>.
+        /// <c><paramref name="number"/> = <see cref="math.significand(float)">significand</see>(<paramref name="number"/>) * 2^<see cref="math.ilogb(float)">ilogb</see>(<paramref name="number"/>)</c>.
         /// </para>
         /// <para>
         /// The return unbiased exponent is valid for all normal and subnormal numbers. Special values are treated as follows.
@@ -795,7 +797,7 @@ namespace C
         /// </list>
         /// <para>
         /// If <paramref name="number"/> is not zero, infinite, or NaN, the value returned is exactly equivalent to
-        /// <c>(<see cref="int"/>)<see cref="math.logb(float)"/>(<paramref name="number"/>)</c>. 
+        /// <c>(<see cref="int"/>)<see cref="math.logb(float)">logb</see>(<paramref name="number"/>)</c>. 
         /// </para>
         /// <para>
         /// The value of the exponent returned by <see cref="math.ilogb(float)"/> is always <c>1</c> less than the exponent retuned by
@@ -804,7 +806,7 @@ namespace C
         /// but for <see cref="math.frexp(float, ref int)"/>, the normalized significand is in the interval <c>[0.5, 1)</c>.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/ilogb">ilogb</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/ilogb">ilogb</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -902,7 +904,7 @@ namespace C
         /// The function <see cref="math.ldexp(double, int)"/> is equivalent to <see cref="math.scalbn(double, int)"/>.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/ldexp">ldexp</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/ldexp">ldexp</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -970,7 +972,7 @@ namespace C
         /// The function <see cref="math.ldexp(float, int)"/> is equivalent to <see cref="math.scalbn(float, int)"/>.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/ldexp">ldexp</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/ldexp">ldexp</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -1029,7 +1031,7 @@ namespace C
         /// The unbiased exponent is such that
         /// </para>
         /// <para>
-        /// <c><paramref name="number"/> = <see cref="math.significand(double)"/>(<paramref name="number"/>) * 2^<see cref="math.logb(double)"/>(<paramref name="number"/>)</c>.
+        /// <c><paramref name="number"/> = <see cref="math.significand(double)">significand</see>(<paramref name="number"/>) * 2^<see cref="math.logb(double)">logb</see>(<paramref name="number"/>)</c>.
         /// </para>
         /// <para>
         /// The return unbiased exponent is valid for all normal and subnormal numbers. Special values are treated as follows.
@@ -1041,7 +1043,7 @@ namespace C
         /// </list>
         /// <para>
         /// If <paramref name="number"/> is not zero, infinite, or NaN, the value returned is exactly equivalent to
-        /// <c>(<see cref="int"/>)<see cref="math.ilogb(double)"/>(<paramref name="number"/>)</c>. 
+        /// <c><see cref="math.ilogb(double)">ilogb</see>(<paramref name="number"/>)</c>. 
         /// </para>
         /// <para>
         /// The value of the exponent returned by <see cref="math.logb(double)"/> is always <c>1</c> less than the exponent retuned by
@@ -1050,7 +1052,7 @@ namespace C
         /// but for <see cref="math.frexp(double, ref int)"/>, the normalized significand is in the interval <c>[0.5, 1)</c>. 
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/logb">logb</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/logb">logb</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -1133,7 +1135,7 @@ namespace C
         /// The unbiased exponent is such that
         /// </para>
         /// <para>
-        /// <c><paramref name="number"/> = <see cref="math.significand(float)"/>(<paramref name="number"/>) * 2^<see cref="math.logb(float)"/>(<paramref name="number"/>)</c>.
+        /// <c><paramref name="number"/> = <see cref="math.significand(float)">significand</see>(<paramref name="number"/>) * 2^<see cref="math.logb(float)">logb</see>(<paramref name="number"/>)</c>.
         /// </para>
         /// <para>
         /// The return unbiased exponent is valid for all normal and subnormal numbers. Special values are treated as follows.
@@ -1145,7 +1147,7 @@ namespace C
         /// </list>
         /// <para>
         /// If <paramref name="number"/> is not zero, infinite, or NaN, the value returned is exactly equivalent to
-        /// <c>(<see cref="int"/>)<see cref="math.ilogb(float)"/>(<paramref name="number"/>)</c>. 
+        /// <c><see cref="math.ilogb(float)">ilogb</see>(<paramref name="number"/>)</c>. 
         /// </para>
         /// <para>
         /// The value of the exponent returned by <see cref="math.logb(float)"/> is always <c>1</c> less than the exponent retuned by
@@ -1154,7 +1156,7 @@ namespace C
         /// but for <see cref="math.frexp(float, ref int)"/>, the normalized significand is in the interval <c>[0.5, 1)</c>. 
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/logb">logb</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/logb">logb</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -1250,7 +1252,7 @@ namespace C
         /// The function <see cref="math.scalbn(double, int)"/> is equivalent to <see cref="math.ldexp(double, int)"/>.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/scalbn">scalbn</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/scalbn">scalbn</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -1314,7 +1316,7 @@ namespace C
         /// The function <see cref="math.scalbn(float, int)"/> is equivalent to <see cref="math.ldexp(float, int)"/>.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/scalbn">scalbn</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/scalbn">scalbn</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -1382,7 +1384,7 @@ namespace C
         /// The function <see cref="math.scalbln(double, long)"/> is equivalent to <see cref="math.ldexp(double, int)"/>.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/scalbn">scalbln</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/scalbn">scalbln</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -1478,7 +1480,7 @@ namespace C
         /// The function <see cref="math.scalbln(float, long)"/> is equivalent to <see cref="math.ldexp(float, int)"/>.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/scalbn">scalbln</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/scalbn">scalbln</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -1574,7 +1576,7 @@ namespace C
         /// the sign of a <see cref="System.Double.NaN"/>, <see cref="math.signbit(double)"/> may also be used). 
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/copysign">copysign</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/copysign">copysign</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -1614,7 +1616,7 @@ namespace C
         /// the sign of a <see cref="System.Single.NaN"/>, <see cref="math.signbit(float)"/> may also be used). 
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/copysign">copysign</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/copysign">copysign</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -1655,11 +1657,11 @@ namespace C
         /// <remarks>
         /// <para>
         /// IEC 60559 recommends that <paramref name="fromNumber"/> be returned whenever <c><paramref name="fromNumber"/> == <paramref name="towardNumber"/></c>.
-        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nextafter(double, double)"/>(-0.0, +0.0)</c>
-        /// returns <c>+0.0</c> and <c><see cref="math.nextafter(double, double)"/>(+0.0, -0.0)</c> returns <c>–0.0</c>.
+        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nextafter(double, double)">nextafter</see>(-0.0, +0.0)</c>
+        /// returns <c>+0.0</c> and <c><see cref="math.nextafter(double, double)">nextafter</see>(+0.0, -0.0)</c> returns <c>–0.0</c>.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/nextafter">nextafter</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/nextafter">nextafter</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -1731,11 +1733,11 @@ namespace C
         /// <remarks>
         /// <para>
         /// IEC 60559 recommends that <paramref name="fromNumber"/> be returned whenever <c><paramref name="fromNumber"/> == <paramref name="towardNumber"/></c>.
-        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nextafter(float, float)"/>(-0.0, +0.0)</c>
-        /// returns <c>+0.0</c> and <c><see cref="math.nextafter(float, float)"/>(+0.0, -0.0)</c> returns <c>–0.0</c>.
+        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nextafter(float, float)">nextafter</see>(-0.0, +0.0)</c>
+        /// returns <c>+0.0</c> and <c><see cref="math.nextafter(float, float)">nextafter</see>(+0.0, -0.0)</c> returns <c>–0.0</c>.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/nextafter">nextafter</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/nextafter">nextafter</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         /// <example>
@@ -1811,14 +1813,14 @@ namespace C
         /// <remarks>
         /// <para>
         /// IEC 60559 recommends that <paramref name="fromNumber"/> be returned whenever <c><paramref name="fromNumber"/> == <paramref name="towardNumber"/></c>.
-        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nexttoward(double, double)"/>(-0.0, +0.0)</c>
-        /// returns <c>+0.0</c> and <c><see cref="math.nexttoward(double, double)"/>(+0.0, -0.0)</c> returns <c>–0.0</c>.
+        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nexttoward(double, double)">nexttoward</see>(-0.0, +0.0)</c>
+        /// returns <c>+0.0</c> and <c><see cref="math.nexttoward(double, double)">nexttoward</see>(+0.0, -0.0)</c> returns <c>–0.0</c>.
         /// </para>
         /// <para>
         /// The <see cref="math.nexttoward(double, double)"/> function is equivalent to the <see cref="math.nextafter(double, double)"/> function.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/nextafter">nexttoward</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/nextafter">nexttoward</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static double nexttoward(double fromNumber, double towardNumber)
@@ -1835,14 +1837,14 @@ namespace C
         /// <remarks>
         /// <para>
         /// IEC 60559 recommends that <paramref name="fromNumber"/> be returned whenever <c><paramref name="fromNumber"/> == <paramref name="towardNumber"/></c>.
-        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nexttoward(float, float)"/>(-0.0, +0.0)</c>
-        /// returns <c>+0.0</c> and <c><see cref="math.nexttoward(float, float)"/>(+0.0, -0.0)</c> returns <c>–0.0</c>.
+        /// These functions return <paramref name="towardNumber"/> instead, which makes the behavior around zero consistent: <c><see cref="math.nexttoward(float, float)">nexttoward</see>(-0.0, +0.0)</c>
+        /// returns <c>+0.0</c> and <c><see cref="math.nexttoward(float, float)">nexttoward</see>(+0.0, -0.0)</c> returns <c>–0.0</c>.
         /// </para>
         /// <para>
         /// The <see cref="math.nexttoward(float, float)"/> function is equivalent to the <see cref="math.nextafter(float, float)"/> function.
         /// </para>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/nextafter">nexttoward</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/nextafter">nexttoward</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static float nexttoward(float fromNumber, float towardNumber)
@@ -2010,7 +2012,7 @@ namespace C
         /// <remarks>
         /// <para>
         /// The significand is a number in the interval <c>[1, 2)</c> so that 
-        /// <c><paramref name="number"/> = <see cref="math.significand(double)"/>(<paramref name="number"/>) * 2^<see cref="math.logb(double)"/>(<paramref name="number"/>)</c>.
+        /// <c><paramref name="number"/> = <see cref="math.significand(double)">significand</see>(<paramref name="number"/>) * 2^<see cref="math.logb(double)">logb</see>(<paramref name="number"/>)</c>.
         /// If <paramref name="number"/> is subnormal, it is normalized so that the significand falls in the interval <c>[1, 2)</c>.
         /// </para>
         /// </remarks>
@@ -2138,7 +2140,7 @@ namespace C
         /// <returns><c>true</c> if either <paramref name="number1"/> or <paramref name="number1"/> is <see cref="System.Double.NaN"/>, <c>false</c> otherwise.</returns>
         /// <remarks>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isunordered">isunordered</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isunordered">isunordered</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static bool isunordered(double number1, double number2)
@@ -2154,7 +2156,7 @@ namespace C
         /// <returns><c>true</c> if either <paramref name="number1"/> or <paramref name="number1"/> is <see cref="System.Single.NaN"/>, <c>false</c> otherwise.</returns>
         /// <remarks>
         /// <para>
-        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isunordered">isunordered</a> for the C standard documentation.
+        /// See <a href="http://en.cppreference.com/w/c/numeric/math/isunordered">isunordered</a> in the C standard documentation.
         /// </para>
         /// </remarks>
         public static bool isunordered(float number1, float number2)
