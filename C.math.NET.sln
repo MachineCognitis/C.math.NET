@@ -18,13 +18,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C.math", "C.math\C.math.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C.math.UnitTests", "C.math.UnitTests\C.math.UnitTests.csproj", "{00734D2A-9EAF-486E-BC50-84E8864028EE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{137CCC5F-17B1-4A54-AB2A-C5B18BF0A4AE}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Releases", "Releases", "{B2D03BD3-467B-493B-B1AB-1B628981529C}"
-	ProjectSection(SolutionItems) = preProject
-		docs\Releases\Documentation.chm = docs\Releases\Documentation.chm
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,8 +81,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{B2D03BD3-467B-493B-B1AB-1B628981529C} = {137CCC5F-17B1-4A54-AB2A-C5B18BF0A4AE}
 	EndGlobalSection
 EndGlobal
