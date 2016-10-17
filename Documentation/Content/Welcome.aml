@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <topic id="846f5c8a-6cba-433e-9f18-cde2ff5695cd" revisionNumber="1">
 	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<introduction>
-			<para>This is a sample conceptual topic.  You can use this as a starting point for adding more conceptual
-content to your help project.</para>
+		
+    <introduction>
+			<para></para>
 		</introduction>
 
 		<section>
@@ -51,5 +51,6 @@ Assistance Markup Language (MAML) which is used to create these topics.</para>
 		<relatedTopics>
 			<link xlink:href="f774b9bc-fb02-4c74-95dc-fcdeca835543" />
 		</relatedTopics>
-	</developerConceptualDocument>
+	
+  </developerConceptualDocument>
 </topic>

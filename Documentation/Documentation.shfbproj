@@ -15,7 +15,7 @@
     <!-- SHFB properties -->
     <FrameworkVersion>.NET Framework 2.0</FrameworkVersion>
     <OutputPath>..\docs\</OutputPath>
-    <HtmlHelpName>Documentation</HtmlHelpName>
+    <HtmlHelpName>C.math.NET</HtmlHelpName>
     <Language>en-US</Language>
     <TransformComponentArguments>
       <Argument Key="logoFile" Value="" />
@@ -54,7 +54,7 @@
     <PresentationStyle>VS2013</PresentationStyle>
     <Preliminary>False</Preliminary>
     <NamingMethod>Guid</NamingMethod>
-    <HelpTitle>Documented Class Library</HelpTitle>
+    <HelpTitle>C.math.NET Class Library</HelpTitle>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
