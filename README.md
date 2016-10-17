@@ -18,7 +18,7 @@ Current Release
 If you would like to support this project, you can make a donation of any amount you like by
 clicking on the PayPal donation button below.
 If you would prefer to donate via check or money order (USD), please send me an e-mail at
-Eric@EWoodruff.us and I will reply with my mailing address.
+and I will reply with my mailing address.
 
 
 
