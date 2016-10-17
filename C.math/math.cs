@@ -7,7 +7,7 @@ using System;
 namespace C
 {
     /// <summary>
-    /// Implements <a href="http://en.cppreference.com/w/c/numeric/math">C Standard</a> mathematical functions that are missing in the .NET framework.
+    /// Implements several <a href="http://en.cppreference.com/w/c/numeric/math">C Standard</a> mathematical functions that are missing from the .NET framework.
     /// </summary>
     /// <remarks>
     /// <para>
