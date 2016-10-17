@@ -27,3 +27,4 @@ I never receive details of your payment other than the amount, your name, e-mail
 and any optionally entered information.
 
 Thanks to those of you that have made a donation. It is much appreciated!
+
