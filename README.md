@@ -15,6 +15,9 @@ Both double and single precision functions are implemented.
 All functions are static and their names follow the
 [C Standard](http://en.cppreference.com/w/c/numeric/math).
 
+All functions have been thoroughly tested using a large set of unit tests that cover all
+limit cases to guarantee that all functions behave as specified by the C standard.
+
 ### Documentation
 
 - On-line help is available [here](https://machinecognitis.github.io/C.math.NET/).
@@ -28,4 +31,30 @@ other than the amount, and your name.
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WUQ6Q2QC8EVDA"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" alt="PayPal - The safer, easier way to pay online!"></a>
 
 Thanks to those who have made a donation. This is much appreciated!
+
+### Sharing
+
+<div>
+     <!-- Email --> 
+    <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 http://www.facebook.com/sharer.php?u=https://github.com/MachineCognitis/C.math.NET/" target="_blank"> 
+        <img style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" /> 
+    </a> 
+     <!-- Facebook --> 
+    <a href="http://www.facebook.com/sharer.php?u=https://github.com/MachineCognitis/C.math.NET/" target="_blank"> 
+        <img style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /> 
+    </a> 
+     <!-- Google+ --> 
+    <a href="https://plus.google.com/share?url=https://github.com/MachineCognitis/C.math.NET/" target="_blank"> 
+        <img style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /> 
+    </a> 
+     <!-- LinkedIn --> 
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://github.com/MachineCognitis/C.math.NET/" target="_blank"> 
+        <img style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /> 
+    </a> 
+    <!-- Twitter --> 
+    <a href="https://twitter.com/share?url=https://github.com/MachineCognitis/C.math.NET/" target="_blank"> 
+        <img style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /> 
+    </a> 
+</div>
+
 

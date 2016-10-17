@@ -54,7 +54,7 @@
     <PresentationStyle>VS2013</PresentationStyle>
     <Preliminary>False</Preliminary>
     <NamingMethod>Guid</NamingMethod>
-    <HelpTitle>C.math.NET Class Library</HelpTitle>
+    <HelpTitle>C.math.NET Library</HelpTitle>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
