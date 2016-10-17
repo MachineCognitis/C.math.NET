@@ -1,8 +1,17 @@
 # C.math.NET
 Implements several [C Standard](http://en.cppreference.com/w/c/numeric/math) mathematical
 functions that are missing from the .NET framework.
-Functions include among others: frexp, ilogb, ldexp, logb, scalbn, copysign, nextafter,
-isunordered, and fpclassify. Both double and single precision functions are implemented.
+Functions include among others: 
+[frexp](https://machinecognitis.github.io/C.math.NET/html/b4d6cd51-2441-999a-18c2-8d18dc2a2c3c.htm), 
+[ilogb](https://machinecognitis.github.io/C.math.NET/html/6c69efac-8d3c-7c31-f0c5-930b73593c0e.htm), 
+[ldexp](), 
+[logb](), 
+[scalbn](),
+[copysign](),
+[nextafter](),
+[isunordered](), and
+[fpclassify]().
+Both double and single precision functions are implemented.
 All functions are static and their names follow the
 [C Standard](http://en.cppreference.com/w/c/numeric/math).
 

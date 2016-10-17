@@ -18,11 +18,11 @@ Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Documentation", "Documentat
 		{9C5AABF7-D18F-4AFF-9283-26DC0B4EDF58} = {9C5AABF7-D18F-4AFF-9283-26DC0B4EDF58}
 	EndProjectSection
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "docs", "docs\docs.shproj", "{71F0DAAC-BC93-44F3-A717-11EFF0BAD683}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "docs", "docs\docs.shproj", "{7FBEC505-3BC4-4612-879A-3CE8C1756180}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		docs\docs.projitems*{71f0daac-bc93-44f3-a717-11eff0bad683}*SharedItemsImports = 13
+		docs\docs.projitems*{7fbec505-3bc4-4612-879a-3ce8c1756180}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
