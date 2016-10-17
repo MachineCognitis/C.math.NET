@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C.math", "C.math\C.math.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C.math.UnitTests", "C.math.UnitTests\C.math.UnitTests.csproj", "{00734D2A-9EAF-486E-BC50-84E8864028EE}"
 EndProject
-Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "docs", "docs\docs.shfbproj", "{CE631E64-52BF-4527-99AD-1EAEB76550A8}"
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "docs", "docs\docs\docs.shfbproj", "{CE631E64-52BF-4527-99AD-1EAEB76550A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
