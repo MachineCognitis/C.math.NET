@@ -14,7 +14,7 @@
     <Name>Documentation</Name>
     <!-- SHFB properties -->
     <FrameworkVersion>.NET Framework 2.0</FrameworkVersion>
-    <OutputPath>.\Help\</OutputPath>
+    <OutputPath>..\docs\</OutputPath>
     <HtmlHelpName>Documentation</HtmlHelpName>
     <Language>en-US</Language>
     <TransformComponentArguments>
@@ -44,6 +44,7 @@
       <NamespaceSummaryItem name="(global)" isDocumented="False" />
       <NamespaceSummaryItem name="C" isDocumented="True">Contains classes that implement standard C functions.</NamespaceSummaryItem>
     </NamespaceSummaries>
+    <WarnOnMissingSourceContext>False</WarnOnMissingSourceContext>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
@@ -66,19 +67,401 @@
   <ItemGroup>
     <Folder Include="Content" />
     <Folder Include="Content\VersionHistory" />
+    <Folder Include="docs\fti\" />
+    <Folder Include="docs\html\" />
+    <Folder Include="docs\icons\" />
+    <Folder Include="docs\scripts\" />
+    <Folder Include="docs\styles\" />
+    <Folder Include="docs\toc\" />
     <Folder Include="icons" />
     <Folder Include="media" />
+    <Folder Include="docs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\VersionHistory\v1.0.0.0.aml" />
     <None Include="Content\VersionHistory\VersionHistory.aml" />
     <None Include="Content\Welcome.aml" />
+    <None Include="docs\Documentation.chm" />
+    <None Include="docs\fti\FTI_100.json" />
+    <None Include="docs\fti\FTI_101.json" />
+    <None Include="docs\fti\FTI_102.json" />
+    <None Include="docs\fti\FTI_103.json" />
+    <None Include="docs\fti\FTI_104.json" />
+    <None Include="docs\fti\FTI_105.json" />
+    <None Include="docs\fti\FTI_108.json" />
+    <None Include="docs\fti\FTI_109.json" />
+    <None Include="docs\fti\FTI_110.json" />
+    <None Include="docs\fti\FTI_111.json" />
+    <None Include="docs\fti\FTI_112.json" />
+    <None Include="docs\fti\FTI_114.json" />
+    <None Include="docs\fti\FTI_115.json" />
+    <None Include="docs\fti\FTI_116.json" />
+    <None Include="docs\fti\FTI_117.json" />
+    <None Include="docs\fti\FTI_118.json" />
+    <None Include="docs\fti\FTI_119.json" />
+    <None Include="docs\fti\FTI_120.json" />
+    <None Include="docs\fti\FTI_97.json" />
+    <None Include="docs\fti\FTI_98.json" />
+    <None Include="docs\fti\FTI_99.json" />
+    <None Include="docs\fti\FTI_Files.json" />
+    <None Include="docs\icons\favicon.ico" />
+    <None Include="docs\LastBuild.log" />
+    <None Include="docs\SearchHelp.inc.php" />
+    <None Include="docs\SearchHelp.php" />
+    <None Include="docs\toc\0ed35c0f-1776-03aa-7fab-bdb4c6f0a32d.xml" />
+    <None Include="docs\toc\27f8321e-d48d-a841-7827-07fcaf8ec3e1.xml" />
+    <None Include="docs\toc\28e322eb-6130-76b3-55fc-fa73b670a7c7.xml" />
+    <None Include="docs\toc\2bc3073b-38b1-2730-d89d-1d85b9f9e582.xml" />
+    <None Include="docs\toc\3e5adb4f-5f0b-6712-580f-1d4f934a6788.xml" />
+    <None Include="docs\toc\41983bc1-94e2-6ed6-e098-bad975a0a2bc.xml" />
+    <None Include="docs\toc\4b542f14-7294-c8b9-a5f6-2999a08122bb.xml" />
+    <None Include="docs\toc\72254616-e6c9-11f6-41f2-2b3564a66708.xml" />
+    <None Include="docs\toc\838f02c3-5e77-3f27-8b75-7c758fa06f50.xml" />
+    <None Include="docs\toc\8d2bc259-f066-1cec-2bc5-1ac9f50774f9.xml" />
+    <None Include="docs\toc\9a3e6bac-81e8-0cde-6c22-7759c9f4bb71.xml" />
+    <None Include="docs\toc\9f42ff80-5573-b909-0891-3b86947afcf0.xml" />
+    <None Include="docs\toc\a1013896-91c7-1f81-d0bc-1504a0043693.xml" />
+    <None Include="docs\toc\afe61a50-9f09-bfbb-e01e-8beba9c9701c.xml" />
+    <None Include="docs\toc\b6699455-5e6d-b220-96ec-bec6a814ae91.xml" />
+    <None Include="docs\toc\dbcb6be2-9a0a-f6b7-0c02-bc1e0dd991e6.xml" />
+    <None Include="docs\toc\dcca7a59-be09-85b6-6f9a-71e7f7e7ef9a.xml" />
+    <None Include="docs\toc\ea400086-1312-a627-8c0e-42c5a0013d44.xml" />
+    <None Include="docs\toc\eaa63019-bce4-0b33-f305-0dae89a0b559.xml" />
+    <None Include="docs\toc\fb4e85ce-8a15-1d8f-02b6-3e77f624c8c2.xml" />
+    <None Include="docs\toc\fc6948cc-b2af-166b-4b2b-ed23db5a2a0a.xml" />
+    <None Include="docs\toc\fd141e6a-09c1-1583-b929-f1db04405075.xml" />
+    <None Include="docs\toc\fe612a7d-63ef-1925-e93c-ae2d73df6d76.xml" />
+    <None Include="docs\toc\roottoc.xml" />
+    <None Include="docs\WebKI.xml" />
+    <None Include="docs\WebTOC.xml" />
   </ItemGroup>
   <ItemGroup>
     <ContentLayout Include="ContentLayout.content" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="docs\html\06bb16ee-acfb-5c1a-74f8-ded214539246.htm" />
+    <Content Include="docs\html\0addace8-d67b-e257-38ad-c2265aa8a67b.htm" />
+    <Content Include="docs\html\0ed35c0f-1776-03aa-7fab-bdb4c6f0a32d.htm" />
+    <Content Include="docs\html\135efda7-32af-57ef-8f57-8c9b278613f8.htm" />
+    <Content Include="docs\html\13f6394a-b96b-9563-9f6d-b437b7d4edd4.htm" />
+    <Content Include="docs\html\1502aa24-cd48-585b-7053-2579852e36d2.htm" />
+    <Content Include="docs\html\18913134-1dcb-94b8-d36e-2e0d29588b8d.htm" />
+    <Content Include="docs\html\22556f22-1e44-e045-8321-f034754c6544.htm" />
+    <Content Include="docs\html\2446adfb-d8a5-b711-6ea2-8df01db455d1.htm" />
+    <Content Include="docs\html\26abcbc0-ccec-82a6-4cf7-a3b7eb8c5918.htm" />
+    <Content Include="docs\html\27f8321e-d48d-a841-7827-07fcaf8ec3e1.htm" />
+    <Content Include="docs\html\28e322eb-6130-76b3-55fc-fa73b670a7c7.htm" />
+    <Content Include="docs\html\2b409d22-3e7f-57ac-e066-cd7191070e6b.htm" />
+    <Content Include="docs\html\2bc3073b-38b1-2730-d89d-1d85b9f9e582.htm" />
+    <Content Include="docs\html\2e5f6333-1309-18d8-d75d-eea4d2a5f50b.htm" />
+    <Content Include="docs\html\32f302cd-d728-608e-83ab-38dcf4506203.htm" />
+    <Content Include="docs\html\35eead45-7bb4-88c5-0f75-278b2cbc94a7.htm" />
+    <Content Include="docs\html\3831117a-9841-2ab9-4e13-c246b2ea6f43.htm" />
+    <Content Include="docs\html\38f579de-c93e-88cd-66f4-d7456cc5ccdf.htm" />
+    <Content Include="docs\html\3e5adb4f-5f0b-6712-580f-1d4f934a6788.htm" />
+    <Content Include="docs\html\41983bc1-94e2-6ed6-e098-bad975a0a2bc.htm" />
+    <Content Include="docs\html\4418480b-71e3-6e28-4eba-a3541be124c3.htm" />
+    <Content Include="docs\html\4469d257-b00a-1dfc-cb66-f90317e03d93.htm" />
+    <Content Include="docs\html\4702f48e-c4c1-8170-8218-e63c32992026.htm" />
+    <Content Include="docs\html\4aed01c1-9425-8dc6-5505-f9ad57d29e80.htm" />
+    <Content Include="docs\html\4b542f14-7294-c8b9-a5f6-2999a08122bb.htm" />
+    <Content Include="docs\html\4e29b762-21dc-1c97-245d-c2363f714f41.htm" />
+    <Content Include="docs\html\4ea11827-5a92-0741-cb26-eda3d4bae08e.htm" />
+    <Content Include="docs\html\4f3f4f0a-99b8-fa2f-79fc-8f19fc905d7e.htm" />
+    <Content Include="docs\html\51cede59-8049-c959-a30a-b14812a70f61.htm" />
+    <Content Include="docs\html\5515faad-3e80-c145-0c33-b7e7871f76b3.htm" />
+    <Content Include="docs\html\5b487ba9-760a-c5b2-7f95-12c1d30edd72.htm" />
+    <Content Include="docs\html\5b7dc509-42d8-78bd-dac4-ae790aeadfa2.htm" />
+    <Content Include="docs\html\5d637939-0ef4-3f3d-89d7-de78a9b7a036.htm" />
+    <Content Include="docs\html\5de33b0d-4e89-abbc-79be-ab72acf58b4b.htm" />
+    <Content Include="docs\html\5f67d96e-daa3-cd30-9384-1cda9ebf3f8a.htm" />
+    <Content Include="docs\html\627d23d3-d888-d553-fcde-1f1135eb445e.htm" />
+    <Content Include="docs\html\63a4a916-1492-dedf-c8fe-0e01aff401f4.htm" />
+    <Content Include="docs\html\65f00e22-a956-ec37-9e75-4594cb42d6d2.htm" />
+    <Content Include="docs\html\6702fcae-9241-ceb4-a4f4-374d7811d7fc.htm" />
+    <Content Include="docs\html\67a00619-76d0-b1c9-3807-9275c766c829.htm" />
+    <Content Include="docs\html\69c3bca2-04ab-573e-f0c6-89257d95a41a.htm" />
+    <Content Include="docs\html\6c69efac-8d3c-7c31-f0c5-930b73593c0e.htm" />
+    <Content Include="docs\html\6f7ec894-e728-1cbf-f630-4cd00e34f80e.htm" />
+    <Content Include="docs\html\720c7a41-70cf-99a6-211d-bfde437aaa31.htm" />
+    <Content Include="docs\html\72254616-e6c9-11f6-41f2-2b3564a66708.htm" />
+    <Content Include="docs\html\73ba1ad7-713c-1f7a-666b-0791a8fb6b8e.htm" />
+    <Content Include="docs\html\772f5ca3-e59a-23ed-5020-f54e3d7b8b1b.htm" />
+    <Content Include="docs\html\7751a0d5-3dae-c87f-c913-d0d61fa35513.htm" />
+    <Content Include="docs\html\7f5d4d0e-9adf-e7ba-e85b-740d3ab8c62a.htm" />
+    <Content Include="docs\html\822835f8-a546-3f05-b31b-6f4b3726d977.htm" />
+    <Content Include="docs\html\82f6ba5b-468c-c498-3b48-3d74c03d06ae.htm" />
+    <Content Include="docs\html\838f02c3-5e77-3f27-8b75-7c758fa06f50.htm" />
+    <Content Include="docs\html\846f5c8a-6cba-433e-9f18-cde2ff5695cd.htm" />
+    <Content Include="docs\html\8615fb99-c43d-a9fc-3f64-5908f8034de8.htm" />
+    <Content Include="docs\html\8bff8421-edbd-c728-cf35-4f11e3ac8af4.htm" />
+    <Content Include="docs\html\8c997a2a-adff-93ca-331e-5e11867eac03.htm" />
+    <Content Include="docs\html\8d2bc259-f066-1cec-2bc5-1ac9f50774f9.htm" />
+    <Content Include="docs\html\8d35ed64-d370-3807-b71e-da6a2750eeda.htm" />
+    <Content Include="docs\html\90ae320e-b6fb-714c-996a-4fc0bf986549.htm" />
+    <Content Include="docs\html\9a3e6bac-81e8-0cde-6c22-7759c9f4bb71.htm" />
+    <Content Include="docs\html\9f42ff80-5573-b909-0891-3b86947afcf0.htm" />
+    <Content Include="docs\html\a1013896-91c7-1f81-d0bc-1504a0043693.htm" />
+    <Content Include="docs\html\a33fc507-73a8-d7b2-0506-6302f70b0450.htm" />
+    <Content Include="docs\html\a469a454-b581-19dd-3564-5209c619afcc.htm" />
+    <Content Include="docs\html\a4f5e6c0-3271-8f0e-185b-0533022c823d.htm" />
+    <Content Include="docs\html\a6023264-9578-6c2e-d0ab-9917c3a7cec3.htm" />
+    <Content Include="docs\html\ad7a93ed-22f6-232f-eec8-2e428abd7f1d.htm" />
+    <Content Include="docs\html\afe61a50-9f09-bfbb-e01e-8beba9c9701c.htm" />
+    <Content Include="docs\html\b4d6cd51-2441-999a-18c2-8d18dc2a2c3c.htm" />
+    <Content Include="docs\html\b6699455-5e6d-b220-96ec-bec6a814ae91.htm" />
+    <Content Include="docs\html\b6dfc563-717d-7a22-e899-2a408f9d6186.htm" />
+    <Content Include="docs\html\b87c0638-f97b-a540-8361-e6d81a1631e8.htm" />
+    <Content Include="docs\html\bbbbeb07-7179-f70b-7a2a-a8376a1caa78.htm" />
+    <Content Include="docs\html\be5dad0c-6e5d-c833-7738-f50d3ebba57a.htm" />
+    <Content Include="docs\html\bedc19b9-8091-4a47-c967-9092577c1dd7.htm" />
+    <Content Include="docs\html\bfa18b69-72e7-6b43-dab0-5f03e009b720.htm" />
+    <Content Include="docs\html\c2326810-c72c-5852-e317-da84b3c95380.htm" />
+    <Content Include="docs\html\c26be7b6-cb0b-781b-b102-ef9d262b4f39.htm" />
+    <Content Include="docs\html\c38ea046-4c29-66bc-0f80-abbf98d5eb06.htm" />
+    <Content Include="docs\html\c88aa287-b29e-7a7c-fa03-baea2c750456.htm" />
+    <Content Include="docs\html\ca678d31-c369-0d45-eefe-81d2c4de7f92.htm" />
+    <Content Include="docs\html\cd5217b7-7396-95ed-e4b7-0702efbd860d.htm" />
+    <Content Include="docs\html\cf800c19-8e3b-62a8-fc0d-04fbd047114a.htm" />
+    <Content Include="docs\html\cf98176e-829b-3925-08e6-da6fbc2822c8.htm" />
+    <Content Include="docs\html\d76548f5-709b-71fd-82a2-ef64314a93a8.htm" />
+    <Content Include="docs\html\db82b0de-e49a-69de-50aa-bdcef3a3cffd.htm" />
+    <Content Include="docs\html\dbcb6be2-9a0a-f6b7-0c02-bc1e0dd991e6.htm" />
+    <Content Include="docs\html\dcca7a59-be09-85b6-6f9a-71e7f7e7ef9a.htm" />
+    <Content Include="docs\html\e05e3ef0-97e5-f585-6de5-7c65c44d3c0d.htm" />
+    <Content Include="docs\html\e0d725e8-09ce-96c1-287e-fc95fdd2aa94.htm" />
+    <Content Include="docs\html\e41dd856-b2c5-e20e-1262-246a956b04a8.htm" />
+    <Content Include="docs\html\e64fb421-ebf8-8796-d5d0-159ce7435c91.htm" />
+    <Content Include="docs\html\ea400086-1312-a627-8c0e-42c5a0013d44.htm" />
+    <Content Include="docs\html\eaa63019-bce4-0b33-f305-0dae89a0b559.htm" />
+    <Content Include="docs\html\f31cfca5-71d6-2e4b-5468-548e510c86d3.htm" />
+    <Content Include="docs\html\f4d0f55c-6297-b6a4-4e04-a25e6149a544.htm" />
+    <Content Include="docs\html\f72d938b-f848-87ae-3347-b09e921998b9.htm" />
+    <Content Include="docs\html\fb4e85ce-8a15-1d8f-02b6-3e77f624c8c2.htm" />
+    <Content Include="docs\html\fc6948cc-b2af-166b-4b2b-ed23db5a2a0a.htm" />
+    <Content Include="docs\html\fd141e6a-09c1-1583-b929-f1db04405075.htm" />
+    <Content Include="docs\html\fe612a7d-63ef-1925-e93c-ae2d73df6d76.htm" />
+    <Content Include="docs\index.html" />
+    <Content Include="docs\scripts\branding-Website.js" />
+    <Content Include="docs\scripts\branding.js" />
+    <Content Include="docs\scripts\clipboard.min.js" />
+    <Content Include="docs\scripts\jquery-1.11.0.min.js" />
+    <Content Include="docs\search.html" />
+    <Content Include="docs\SearchHelp.aspx" />
+    <Content Include="docs\styles\branding-cs-CZ.css" />
+    <Content Include="docs\styles\branding-de-DE.css" />
+    <Content Include="docs\styles\branding-en-US.css" />
+    <Content Include="docs\styles\branding-es-ES.css" />
+    <Content Include="docs\styles\branding-fr-FR.css" />
+    <Content Include="docs\styles\branding-Help1.css" />
+    <Content Include="docs\styles\branding-HelpViewer.css" />
+    <Content Include="docs\styles\branding-it-IT.css" />
+    <Content Include="docs\styles\branding-ja-JP.css" />
+    <Content Include="docs\styles\branding-ko-KR.css" />
+    <Content Include="docs\styles\branding-pl-PL.css" />
+    <Content Include="docs\styles\branding-pt-BR.css" />
+    <Content Include="docs\styles\branding-ru-RU.css" />
+    <Content Include="docs\styles\branding-tr-TR.css" />
+    <Content Include="docs\styles\branding-Website.css" />
+    <Content Include="docs\styles\branding-zh-CN.css" />
+    <Content Include="docs\styles\branding-zh-TW.css" />
+    <Content Include="docs\styles\branding.css" />
+    <Content Include="docs\Web.Config" />
     <Content Include="icons\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="docs\icons\AlertCaution.png">
+      <ImageId>AlertCaution</ImageId>
+      <AlternateText>Alert Caution</AlternateText>
+    </Image>
+    <Image Include="docs\icons\AlertNote.png">
+      <ImageId>AlertNote</ImageId>
+      <AlternateText>Alert Note</AlternateText>
+    </Image>
+    <Image Include="docs\icons\AlertSecurity.png">
+      <ImageId>AlertSecurity</ImageId>
+      <AlternateText>Alert Security</AlternateText>
+    </Image>
+    <Image Include="docs\icons\CFW.gif">
+      <ImageId>CFW</ImageId>
+      <AlternateText>CFW</AlternateText>
+    </Image>
+    <Image Include="docs\icons\CodeExample.png">
+      <ImageId>CodeExample</ImageId>
+      <AlternateText>Code Example</AlternateText>
+    </Image>
+    <Image Include="docs\icons\Help.png">
+      <ImageId>Help</ImageId>
+      <AlternateText>Help</AlternateText>
+    </Image>
+    <Image Include="docs\icons\privclass.gif">
+      <ImageId>privclass</ImageId>
+      <AlternateText>privclass</AlternateText>
+    </Image>
+    <Image Include="docs\icons\privdelegate.gif">
+      <ImageId>privdelegate</ImageId>
+      <AlternateText>privdelegate</AlternateText>
+    </Image>
+    <Image Include="docs\icons\privenumeration.gif">
+      <ImageId>privenumeration</ImageId>
+      <AlternateText>privenumeration</AlternateText>
+    </Image>
+    <Image Include="docs\icons\privevent.gif">
+      <ImageId>privevent</ImageId>
+      <AlternateText>privevent</AlternateText>
+    </Image>
+    <Image Include="docs\icons\privextension.gif">
+      <ImageId>privextension</ImageId>
+      <AlternateText>privextension</AlternateText>
+    </Image>
+    <Image Include="docs\icons\privfield.gif">
+      <ImageId>privfield</ImageId>
+      <AlternateText>privfield</AlternateText>
+    </Image>
+    <Image Include="docs\icons\privinterface.gif">
+      <ImageId>privinterface</ImageId>
+      <AlternateText>privinterface</AlternateText>
+    </Image>
+    <Image Include="docs\icons\privmethod.gif">
+      <ImageId>privmethod</ImageId>
+      <AlternateText>privmethod</AlternateText>
+    </Image>
+    <Image Include="docs\icons\privproperty.gif">
+      <ImageId>privproperty</ImageId>
+      <AlternateText>privproperty</AlternateText>
+    </Image>
+    <Image Include="docs\icons\privstructure.gif">
+      <ImageId>privstructure</ImageId>
+      <AlternateText>privstructure</AlternateText>
+    </Image>
+    <Image Include="docs\icons\protclass.gif">
+      <ImageId>protclass</ImageId>
+      <AlternateText>protclass</AlternateText>
+    </Image>
+    <Image Include="docs\icons\protdelegate.gif">
+      <ImageId>protdelegate</ImageId>
+      <AlternateText>protdelegate</AlternateText>
+    </Image>
+    <Image Include="docs\icons\protenumeration.gif">
+      <ImageId>protenumeration</ImageId>
+      <AlternateText>protenumeration</AlternateText>
+    </Image>
+    <Image Include="docs\icons\protevent.gif">
+      <ImageId>protevent</ImageId>
+      <AlternateText>protevent</AlternateText>
+    </Image>
+    <Image Include="docs\icons\protextension.gif">
+      <ImageId>protextension</ImageId>
+      <AlternateText>protextension</AlternateText>
+    </Image>
+    <Image Include="docs\icons\protfield.gif">
+      <ImageId>protfield</ImageId>
+      <AlternateText>protfield</AlternateText>
+    </Image>
+    <Image Include="docs\icons\protinterface.gif">
+      <ImageId>protinterface</ImageId>
+      <AlternateText>protinterface</AlternateText>
+    </Image>
+    <Image Include="docs\icons\protmethod.gif">
+      <ImageId>protmethod</ImageId>
+      <AlternateText>protmethod</AlternateText>
+    </Image>
+    <Image Include="docs\icons\protoperator.gif">
+      <ImageId>protoperator</ImageId>
+      <AlternateText>protoperator</AlternateText>
+    </Image>
+    <Image Include="docs\icons\protproperty.gif">
+      <ImageId>protproperty</ImageId>
+      <AlternateText>protproperty</AlternateText>
+    </Image>
+    <Image Include="docs\icons\protstructure.gif">
+      <ImageId>protstructure</ImageId>
+      <AlternateText>protstructure</AlternateText>
+    </Image>
+    <Image Include="docs\icons\pubclass.gif">
+      <ImageId>pubclass</ImageId>
+      <AlternateText>pubclass</AlternateText>
+    </Image>
+    <Image Include="docs\icons\pubdelegate.gif">
+      <ImageId>pubdelegate</ImageId>
+      <AlternateText>pubdelegate</AlternateText>
+    </Image>
+    <Image Include="docs\icons\pubenumeration.gif">
+      <ImageId>pubenumeration</ImageId>
+      <AlternateText>pubenumeration</AlternateText>
+    </Image>
+    <Image Include="docs\icons\pubevent.gif">
+      <ImageId>pubevent</ImageId>
+      <AlternateText>pubevent</AlternateText>
+    </Image>
+    <Image Include="docs\icons\pubextension.gif">
+      <ImageId>pubextension</ImageId>
+      <AlternateText>pubextension</AlternateText>
+    </Image>
+    <Image Include="docs\icons\pubfield.gif">
+      <ImageId>pubfield</ImageId>
+      <AlternateText>pubfield</AlternateText>
+    </Image>
+    <Image Include="docs\icons\pubinterface.gif">
+      <ImageId>pubinterface</ImageId>
+      <AlternateText>pubinterface</AlternateText>
+    </Image>
+    <Image Include="docs\icons\pubmethod.gif">
+      <ImageId>pubmethod</ImageId>
+      <AlternateText>pubmethod</AlternateText>
+    </Image>
+    <Image Include="docs\icons\puboperator.gif">
+      <ImageId>puboperator</ImageId>
+      <AlternateText>puboperator</AlternateText>
+    </Image>
+    <Image Include="docs\icons\pubproperty.gif">
+      <ImageId>pubproperty</ImageId>
+      <AlternateText>pubproperty</AlternateText>
+    </Image>
+    <Image Include="docs\icons\pubstructure.gif">
+      <ImageId>pubstructure</ImageId>
+      <AlternateText>pubstructure</AlternateText>
+    </Image>
+    <Image Include="docs\icons\Search.png">
+      <ImageId>Search</ImageId>
+      <AlternateText>Search</AlternateText>
+    </Image>
+    <Image Include="docs\icons\SectionCollapsed.png">
+      <ImageId>SectionCollapsed</ImageId>
+      <AlternateText>Section Collapsed</AlternateText>
+    </Image>
+    <Image Include="docs\icons\SectionExpanded.png">
+      <ImageId>SectionExpanded</ImageId>
+      <AlternateText>Section Expanded</AlternateText>
+    </Image>
+    <Image Include="docs\icons\slMobile.gif">
+      <ImageId>slMobile</ImageId>
+      <AlternateText>sl Mobile</AlternateText>
+    </Image>
+    <Image Include="docs\icons\static.gif">
+      <ImageId>static</ImageId>
+      <AlternateText>static</AlternateText>
+    </Image>
+    <Image Include="docs\icons\TocClose.gif">
+      <ImageId>TocClose</ImageId>
+      <AlternateText>Toc Close</AlternateText>
+    </Image>
+    <Image Include="docs\icons\TocCollapsed.gif">
+      <ImageId>TocCollapsed</ImageId>
+      <AlternateText>Toc Collapsed</AlternateText>
+    </Image>
+    <Image Include="docs\icons\TocExpanded.gif">
+      <ImageId>TocExpanded</ImageId>
+      <AlternateText>Toc Expanded</AlternateText>
+    </Image>
+    <Image Include="docs\icons\TocOpen.gif">
+      <ImageId>TocOpen</ImageId>
+      <AlternateText>Toc Open</AlternateText>
+    </Image>
+    <Image Include="docs\icons\xna.gif">
+      <ImageId>xna</ImageId>
+      <AlternateText>xna</AlternateText>
+    </Image>
   </ItemGroup>
   <!-- Import the SHFB build targets -->
   <Import Project="$(SHFBROOT)\SandcastleHelpFileBuilder.targets" />
