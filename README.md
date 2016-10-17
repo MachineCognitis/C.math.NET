@@ -36,7 +36,7 @@ Thanks to those who have made a donation. This is much appreciated!
 
 <div>
      <!-- Email --> 
-    <a href="mailto:?Subject=C.math.NET%20Library&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 http://www.facebook.com/sharer.php?u=https://github.com/MachineCognitis/C.math.NET/" target="_blank"> 
+    <a href="mailto:?Subject=C.math.NET%20Library&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20https://github.com/MachineCognitis/C.math.NET/" target="_blank"> 
         <img width="35" src="./docs/icons/mail.png" alt="Email" /> 
     </a> 
      <!-- Facebook --> 
