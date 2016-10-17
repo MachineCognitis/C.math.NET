@@ -4,7 +4,11 @@
 		
     <introduction>
 			<para>
-        The C.math.NET library implements several <link xlink:href="http://en.cppreference.com/w/c/numeric/math">C Standard</link> mathematical
+        The C.math.NET library implements several
+        <externalLink>
+          <linkText>C Standard</linkText>
+          <linkUri>http://en.cppreference.com/w/c/numeric/math</linkUri>
+        </externalLink>
         functions that are missing from the .NET framework.
         Functions include among others:
         <link xlink:href="https://machinecognitis.github.io/C.math.NET/html/b4d6cd51-2441-999a-18c2-8d18dc2a2c3c.htm">frexp</link>[](),
