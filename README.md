@@ -37,7 +37,7 @@ Thanks to those who have made a donation. This is much appreciated!
 <div>
      <!-- Email --> 
     <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 http://www.facebook.com/sharer.php?u=https://github.com/MachineCognitis/C.math.NET/" target="_blank"> 
-        <img style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" /> 
+        <img src="https://simplesharebuttons.com/images/somacro/email.png" style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" alt="Email" /> 
     </a> 
      <!-- Facebook --> 
     <a href="http://www.facebook.com/sharer.php?u=https://github.com/MachineCognitis/C.math.NET/" target="_blank"> 
