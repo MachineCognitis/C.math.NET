@@ -36,24 +36,24 @@ Thanks to those who have made a donation. This is much appreciated!
 
 <div>
      <!-- Email --> 
-    <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 http://www.facebook.com/sharer.php?u=https://github.com/MachineCognitis/C.math.NET/" target="_blank"> 
-        <img src="https://simplesharebuttons.com/images/somacro/email.png" style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" alt="Email" /> 
+    <a href="mailto:?Subject=C.math.NET&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 http://www.facebook.com/sharer.php?u=https://github.com/MachineCognitis/C.math.NET/" target="_blank"> 
+        <img style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" src="./docs/icons/mail.png" alt="Email" /> 
     </a> 
      <!-- Facebook --> 
     <a href="http://www.facebook.com/sharer.php?u=https://github.com/MachineCognitis/C.math.NET/" target="_blank"> 
-        <img style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /> 
+        <img style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" src="./docs/icons/facebook.png" alt="Facebook" /> 
     </a> 
      <!-- Google+ --> 
     <a href="https://plus.google.com/share?url=https://github.com/MachineCognitis/C.math.NET/" target="_blank"> 
-        <img style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" /> 
+        <img style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" src="./docs/icons/google.png" alt="Google" /> 
     </a> 
      <!-- LinkedIn --> 
     <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://github.com/MachineCognitis/C.math.NET/" target="_blank"> 
-        <img style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /> 
+        <img style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" src="./docs/icons/linkedin.png" alt="LinkedIn" /> 
     </a> 
     <!-- Twitter --> 
     <a href="https://twitter.com/share?url=https://github.com/MachineCognitis/C.math.NET/" target="_blank"> 
-        <img style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /> 
+        <img style="width: 35px; padding: 5px; border: 0; box-shadow: 0; display: inline;" src="./docs/icons/twitter.png" alt="Twitter" /> 
     </a> 
 </div>
 
