@@ -11,7 +11,7 @@
     <!-- AssemblyName, Name, and RootNamespace are not used by SHFB but Visual Studio adds them anyway -->
     <AssemblyName>Documentation</AssemblyName>
     <RootNamespace>Documentation</RootNamespace>
-    <Name>docs</Name>
+    <Name>Documentation</Name>
     <!-- SHFB properties -->
     <FrameworkVersion>.NET Framework 2.0</FrameworkVersion>
     <OutputPath>..\docs\</OutputPath>
