@@ -10,7 +10,7 @@ All functions are static and their names follow the
 
 Current Release
 
-- Get current release.
+- Get current  release.
 - Online help.
 
 ### Making a Donation
