@@ -11,18 +11,21 @@
         </externalLink>
         functions that are missing from the .NET framework.
         Functions include among others:
-        <link xlink:href="https://machinecognitis.github.io/C.math.NET/html/b4d6cd51-2441-999a-18c2-8d18dc2a2c3c.htm">frexp</link>[](),
-        <link xlink:href="https://machinecognitis.github.io/C.math.NET/html/6c69efac-8d3c-7c31-f0c5-930b73593c0e.htm">ilogb</link>[](),
-        <link xlink:href="https://machinecognitis.github.io/C.math.NET/html/35eead45-7bb4-88c5-0f75-278b2cbc94a7.htm">ldexp</link>[](),
-        <link xlink:href="https://machinecognitis.github.io/C.math.NET/html/5f67d96e-daa3-cd30-9384-1cda9ebf3f8a.htm">logb</link>[](),
-        <link xlink:href="https://machinecognitis.github.io/C.math.NET/html/bedc19b9-8091-4a47-c967-9092577c1dd7.htm">scalbn</link>[](),
-        <link xlink:href="https://machinecognitis.github.io/C.math.NET/html/cd5217b7-7396-95ed-e4b7-0702efbd860d.htm">copysign</link>[](),
-        <link xlink:href="https://machinecognitis.github.io/C.math.NET/html/65f00e22-a956-ec37-9e75-4594cb42d6d2.htm">nextafter</link>[](),
-        <link xlink:href="https://machinecognitis.github.io/C.math.NET/html/e64fb421-ebf8-8796-d5d0-159ce7435c91.htm">isunordered</link>[](), and
-        <link xlink:href="https://machinecognitis.github.io/C.math.NET/html/63a4a916-1492-dedf-c8fe-0e01aff401f4.htm">fpclassify</link>[]().
+        <link xlink:href="b4d6cd51-2441-999a-18c2-8d18dc2a2c3c">frexp</link>,
+        <link xlink:href="6c69efac-8d3c-7c31-f0c5-930b73593c0e">ilogb</link>,
+        <link xlink:href="35eead45-7bb4-88c5-0f75-278b2cbc94a7">ldexp</link>,
+        <link xlink:href="5f67d96e-daa3-cd30-9384-1cda9ebf3f8a">logb</link>,
+        <link xlink:href="bedc19b9-8091-4a47-c967-9092577c1dd7">scalbn</link>,
+        <link xlink:href="cd5217b7-7396-95ed-e4b7-0702efbd860d">copysign</link>,
+        <link xlink:href="65f00e22-a956-ec37-9e75-4594cb42d6d2">nextafter</link>,
+        <link xlink:href="e64fb421-ebf8-8796-d5d0-159ce7435c91">isunordered</link>, and
+        <link xlink:href="63a4a916-1492-dedf-c8fe-0e01aff401f4">fpclassify</link>.
         Both double and single precision functions are implemented.
         All functions are static and their names follow the
-        <link xlink:href="http://en.cppreference.com/w/c/numeric/math">C Standard</link>.
+        <externalLink>
+          <linkText>C Standard</linkText>
+          <linkUri>http://en.cppreference.com/w/c/numeric/math</linkUri>
+        </externalLink>.
       </para>
       <para>
         All functions have been thoroughly tested using a large set of unit tests that cover all
@@ -73,8 +76,11 @@ Assistance Markup Language (MAML) which is used to create these topics.</para>
 		</section>
 
 		<relatedTopics>
-      <link xlink:href="http://en.cppreference.com/w/c/numeric/math">C Standard</link>
-		</relatedTopics>
+      <externalLink>
+        <linkText>C Standard</linkText>
+        <linkUri>http://en.cppreference.com/w/c/numeric/math</linkUri>
+      </externalLink>
+    </relatedTopics>
 	
   </developerConceptualDocument>
 </topic>

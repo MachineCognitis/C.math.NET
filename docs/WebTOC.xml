@@ -2,89 +2,89 @@
 <HelpTOC>
 
   <HelpTOCNode Title="Welcome to the C.math.NET Library" Url="html/846f5c8a-6cba-433e-9f18-cde2ff5695cd.htm" />
-  <HelpTOCNode Id="d11af1e7-6255-45d4-9556-567e294b40a0" Title="C" Url="html/838f02c3-5e77-3f27-8b75-7c758fa06f50.htm">
-    <HelpTOCNode Id="d27520ca-f234-4544-b214-955d61de1df1" Title="math Class" Url="html/fd141e6a-09c1-1583-b929-f1db04405075.htm">
-      <HelpTOCNode Id="ffa23f2e-1989-4cd1-9069-f34dfbece801" Title="math Methods" Url="html/ea400086-1312-a627-8c0e-42c5a0013d44.htm">
-        <HelpTOCNode Id="dc8ea62d-66ec-44e7-956c-d45be4b40b1e" Title="copysign Method " Url="html/fc6948cc-b2af-166b-4b2b-ed23db5a2a0a.htm">
+  <HelpTOCNode Id="5a2f7610-f037-47ab-86a5-288803e9d75b" Title="C" Url="html/838f02c3-5e77-3f27-8b75-7c758fa06f50.htm">
+    <HelpTOCNode Id="d4148bf2-9793-4c3b-bf79-6bf73dfc5785" Title="math Class" Url="html/fd141e6a-09c1-1583-b929-f1db04405075.htm">
+      <HelpTOCNode Id="faeaec0f-cdf9-4a3d-a34b-19dd8ddaf98d" Title="math Methods" Url="html/ea400086-1312-a627-8c0e-42c5a0013d44.htm">
+        <HelpTOCNode Id="f24e6235-694e-4a74-b046-0fe512c0f917" Title="copysign Method " Url="html/fc6948cc-b2af-166b-4b2b-ed23db5a2a0a.htm">
           <HelpTOCNode Title="copysign Method (Double, Double)" Url="html/cd5217b7-7396-95ed-e4b7-0702efbd860d.htm" />
           <HelpTOCNode Title="copysign Method (Single, Single)" Url="html/ca678d31-c369-0d45-eefe-81d2c4de7f92.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="c79fa007-c327-44ac-9bba-562b8e3cfe8c" Title="exponent Method " Url="html/eaa63019-bce4-0b33-f305-0dae89a0b559.htm">
+        <HelpTOCNode Id="412e4863-9ccf-460a-ad38-049eed6abf24" Title="exponent Method " Url="html/eaa63019-bce4-0b33-f305-0dae89a0b559.htm">
           <HelpTOCNode Title="exponent Method (Double)" Url="html/06bb16ee-acfb-5c1a-74f8-ded214539246.htm" />
           <HelpTOCNode Title="exponent Method (Single)" Url="html/cf98176e-829b-3925-08e6-da6fbc2822c8.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="66c05ea9-7518-4750-aa83-d073607a51e1" Title="fpclassify Method " Url="html/8d2bc259-f066-1cec-2bc5-1ac9f50774f9.htm">
+        <HelpTOCNode Id="bcc9a67e-a10d-43db-87e5-d0c62317df6f" Title="fpclassify Method " Url="html/8d2bc259-f066-1cec-2bc5-1ac9f50774f9.htm">
           <HelpTOCNode Title="fpclassify Method (Double)" Url="html/63a4a916-1492-dedf-c8fe-0e01aff401f4.htm" />
           <HelpTOCNode Title="fpclassify Method (Single)" Url="html/5515faad-3e80-c145-0c33-b7e7871f76b3.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="86bfed2e-28ff-433a-ba63-856ef49a5c47" Title="frexp Method " Url="html/2bc3073b-38b1-2730-d89d-1d85b9f9e582.htm">
+        <HelpTOCNode Id="f48831c1-6db6-469c-b5ba-dec177268df4" Title="frexp Method " Url="html/2bc3073b-38b1-2730-d89d-1d85b9f9e582.htm">
           <HelpTOCNode Title="frexp Method (Double, Int32)" Url="html/b4d6cd51-2441-999a-18c2-8d18dc2a2c3c.htm" />
           <HelpTOCNode Title="frexp Method (Single, Int32)" Url="html/bfa18b69-72e7-6b43-dab0-5f03e009b720.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="1c9b0d93-5ddf-42f2-96e1-01d65b477b3e" Title="ilogb Method " Url="html/fe612a7d-63ef-1925-e93c-ae2d73df6d76.htm">
+        <HelpTOCNode Id="30a03143-7daa-4be5-bf27-49e10daf4dbf" Title="ilogb Method " Url="html/fe612a7d-63ef-1925-e93c-ae2d73df6d76.htm">
           <HelpTOCNode Title="ilogb Method (Double)" Url="html/6c69efac-8d3c-7c31-f0c5-930b73593c0e.htm" />
           <HelpTOCNode Title="ilogb Method (Single)" Url="html/51cede59-8049-c959-a30a-b14812a70f61.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="Int32BitsToSingle Method " Url="html/5b7dc509-42d8-78bd-dac4-ae790aeadfa2.htm" />
-        <HelpTOCNode Id="9bffd072-d15b-4f8e-8e02-9ed3abe0146f" Title="isfinite Method " Url="html/72254616-e6c9-11f6-41f2-2b3564a66708.htm">
+        <HelpTOCNode Id="7a5f650a-4944-4c41-a423-9187d5e5228b" Title="isfinite Method " Url="html/72254616-e6c9-11f6-41f2-2b3564a66708.htm">
           <HelpTOCNode Title="isfinite Method (Double)" Url="html/f4d0f55c-6297-b6a4-4e04-a25e6149a544.htm" />
           <HelpTOCNode Title="isfinite Method (Single)" Url="html/772f5ca3-e59a-23ed-5020-f54e3d7b8b1b.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="45d6b870-42ea-47e2-bcd4-ac3243ab4504" Title="isinf Method " Url="html/3e5adb4f-5f0b-6712-580f-1d4f934a6788.htm">
+        <HelpTOCNode Id="fa2bd79b-d5ce-4d24-bd64-b095161ff99f" Title="isinf Method " Url="html/3e5adb4f-5f0b-6712-580f-1d4f934a6788.htm">
           <HelpTOCNode Title="isinf Method (Double)" Url="html/4702f48e-c4c1-8170-8218-e63c32992026.htm" />
           <HelpTOCNode Title="isinf Method (Single)" Url="html/4f3f4f0a-99b8-fa2f-79fc-8f19fc905d7e.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="314e800c-e2e5-4275-b5a6-fe8168ea4669" Title="isnan Method " Url="html/b6699455-5e6d-b220-96ec-bec6a814ae91.htm">
+        <HelpTOCNode Id="11487746-4c81-486a-b724-74ed5adc7a4e" Title="isnan Method " Url="html/b6699455-5e6d-b220-96ec-bec6a814ae91.htm">
           <HelpTOCNode Title="isnan Method (Double)" Url="html/82f6ba5b-468c-c498-3b48-3d74c03d06ae.htm" />
           <HelpTOCNode Title="isnan Method (Single)" Url="html/c26be7b6-cb0b-781b-b102-ef9d262b4f39.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="e7a1e9d6-3174-4e7c-9d3f-aa8d4f5edd68" Title="isnormal Method " Url="html/9a3e6bac-81e8-0cde-6c22-7759c9f4bb71.htm">
+        <HelpTOCNode Id="82a19773-b950-4e66-be1d-d3d2194320bf" Title="isnormal Method " Url="html/9a3e6bac-81e8-0cde-6c22-7759c9f4bb71.htm">
           <HelpTOCNode Title="isnormal Method (Double)" Url="html/67a00619-76d0-b1c9-3807-9275c766c829.htm" />
           <HelpTOCNode Title="isnormal Method (Single)" Url="html/2b409d22-3e7f-57ac-e066-cd7191070e6b.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="5ccdcf33-af4d-4d9d-96e4-ac5df88cce68" Title="isunordered Method " Url="html/dcca7a59-be09-85b6-6f9a-71e7f7e7ef9a.htm">
+        <HelpTOCNode Id="f7cef8b1-f99e-4d32-8820-392c00c049b0" Title="isunordered Method " Url="html/dcca7a59-be09-85b6-6f9a-71e7f7e7ef9a.htm">
           <HelpTOCNode Title="isunordered Method (Double, Double)" Url="html/e64fb421-ebf8-8796-d5d0-159ce7435c91.htm" />
           <HelpTOCNode Title="isunordered Method (Single, Single)" Url="html/4aed01c1-9425-8dc6-5505-f9ad57d29e80.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="9e36694e-da4e-4652-8b31-4a293ea25fef" Title="ldexp Method " Url="html/dbcb6be2-9a0a-f6b7-0c02-bc1e0dd991e6.htm">
+        <HelpTOCNode Id="0a9f195b-41ad-4d82-a588-ea78114dc12b" Title="ldexp Method " Url="html/dbcb6be2-9a0a-f6b7-0c02-bc1e0dd991e6.htm">
           <HelpTOCNode Title="ldexp Method (Double, Int32)" Url="html/35eead45-7bb4-88c5-0f75-278b2cbc94a7.htm" />
           <HelpTOCNode Title="ldexp Method (Single, Int32)" Url="html/8615fb99-c43d-a9fc-3f64-5908f8034de8.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="abe3e901-f2cc-44cb-9dd1-d3456d321daf" Title="logb Method " Url="html/4b542f14-7294-c8b9-a5f6-2999a08122bb.htm">
+        <HelpTOCNode Id="d74cda74-2a81-4d42-bfb2-4fe767ee12ec" Title="logb Method " Url="html/4b542f14-7294-c8b9-a5f6-2999a08122bb.htm">
           <HelpTOCNode Title="logb Method (Double)" Url="html/5f67d96e-daa3-cd30-9384-1cda9ebf3f8a.htm" />
           <HelpTOCNode Title="logb Method (Single)" Url="html/8d35ed64-d370-3807-b71e-da6a2750eeda.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="593ef333-e5e7-488d-a52f-1464016787c1" Title="mantissa Method " Url="html/afe61a50-9f09-bfbb-e01e-8beba9c9701c.htm">
+        <HelpTOCNode Id="4d17e2a6-0be7-45c9-b514-8ee3ad335c34" Title="mantissa Method " Url="html/afe61a50-9f09-bfbb-e01e-8beba9c9701c.htm">
           <HelpTOCNode Title="mantissa Method (Double)" Url="html/135efda7-32af-57ef-8f57-8c9b278613f8.htm" />
           <HelpTOCNode Title="mantissa Method (Single)" Url="html/e0d725e8-09ce-96c1-287e-fc95fdd2aa94.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="313be39b-a582-4aa8-b31b-ab4d8124cf7d" Title="nextafter Method " Url="html/fb4e85ce-8a15-1d8f-02b6-3e77f624c8c2.htm">
+        <HelpTOCNode Id="4f6684da-d4c3-4e0a-885c-868bbc93c3d4" Title="nextafter Method " Url="html/fb4e85ce-8a15-1d8f-02b6-3e77f624c8c2.htm">
           <HelpTOCNode Title="nextafter Method (Double, Double)" Url="html/65f00e22-a956-ec37-9e75-4594cb42d6d2.htm" />
           <HelpTOCNode Title="nextafter Method (Single, Single)" Url="html/4469d257-b00a-1dfc-cb66-f90317e03d93.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f79ec70f-29c7-4f3b-9798-070b088b1f81" Title="nexttoward Method " Url="html/27f8321e-d48d-a841-7827-07fcaf8ec3e1.htm">
+        <HelpTOCNode Id="f296553c-536d-4818-b4d7-5f818de0fd08" Title="nexttoward Method " Url="html/27f8321e-d48d-a841-7827-07fcaf8ec3e1.htm">
           <HelpTOCNode Title="nexttoward Method (Double, Double)" Url="html/5de33b0d-4e89-abbc-79be-ab72acf58b4b.htm" />
           <HelpTOCNode Title="nexttoward Method (Single, Single)" Url="html/4e29b762-21dc-1c97-245d-c2363f714f41.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="3a102bf7-b4cb-4068-a966-489d9e02a4e2" Title="scalbln Method " Url="html/28e322eb-6130-76b3-55fc-fa73b670a7c7.htm">
+        <HelpTOCNode Id="3fefccb4-b9fd-43ae-a622-46e598b1750e" Title="scalbln Method " Url="html/28e322eb-6130-76b3-55fc-fa73b670a7c7.htm">
           <HelpTOCNode Title="scalbln Method (Double, Int64)" Url="html/69c3bca2-04ab-573e-f0c6-89257d95a41a.htm" />
           <HelpTOCNode Title="scalbln Method (Single, Int64)" Url="html/8bff8421-edbd-c728-cf35-4f11e3ac8af4.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="d4ce863d-f37b-4f3c-9c47-be3ed4d33631" Title="scalbn Method " Url="html/a1013896-91c7-1f81-d0bc-1504a0043693.htm">
+        <HelpTOCNode Id="8e07d203-c084-4a67-96a7-0c55dc5ad426" Title="scalbn Method " Url="html/a1013896-91c7-1f81-d0bc-1504a0043693.htm">
           <HelpTOCNode Title="scalbn Method (Double, Int32)" Url="html/bedc19b9-8091-4a47-c967-9092577c1dd7.htm" />
           <HelpTOCNode Title="scalbn Method (Single, Int32)" Url="html/627d23d3-d888-d553-fcde-1f1135eb445e.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="4902b05b-d240-47fb-bcc2-b3129670af27" Title="signbit Method " Url="html/41983bc1-94e2-6ed6-e098-bad975a0a2bc.htm">
+        <HelpTOCNode Id="d1822fd3-508e-4cf7-a336-590c98a71b5c" Title="signbit Method " Url="html/41983bc1-94e2-6ed6-e098-bad975a0a2bc.htm">
           <HelpTOCNode Title="signbit Method (Double)" Url="html/822835f8-a546-3f05-b31b-6f4b3726d977.htm" />
           <HelpTOCNode Title="signbit Method (Single)" Url="html/c2326810-c72c-5852-e317-da84b3c95380.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="b082ef08-92d3-46d2-bafb-9d7597e2301c" Title="significand Method " Url="html/9f42ff80-5573-b909-0891-3b86947afcf0.htm">
+        <HelpTOCNode Id="19b53147-1ff5-4a92-9ae4-463015cf30c0" Title="significand Method " Url="html/9f42ff80-5573-b909-0891-3b86947afcf0.htm">
           <HelpTOCNode Title="significand Method (Double)" Url="html/6f7ec894-e728-1cbf-f630-4cd00e34f80e.htm" />
           <HelpTOCNode Title="significand Method (Single)" Url="html/26abcbc0-ccec-82a6-4cf7-a3b7eb8c5918.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="SingleToInt32Bits Method " Url="html/f72d938b-f848-87ae-3347-b09e921998b9.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="e29cd0b0-7f0b-4be0-a7d9-0ab4bbf56ae5" Title="math Fields" Url="html/0ed35c0f-1776-03aa-7fab-bdb4c6f0a32d.htm">
+      <HelpTOCNode Id="917cc97c-a65a-4e4c-9c11-d8cc7a51a51d" Title="math Fields" Url="html/0ed35c0f-1776-03aa-7fab-bdb4c6f0a32d.htm">
         <HelpTOCNode Title="DBL_DENORM_MAX Field" Url="html/32f302cd-d728-608e-83ab-38dcf4506203.htm" />
         <HelpTOCNode Title="DBL_DENORM_MIN Field" Url="html/b87c0638-f97b-a540-8361-e6d81a1631e8.htm" />
         <HelpTOCNode Title="DBL_EXP_BIAS Field" Url="html/2446adfb-d8a5-b711-6ea2-8df01db455d1.htm" />
