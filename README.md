@@ -20,12 +20,7 @@ clicking on the PayPal donation button below.
 If you would prefer to donate via check or money order (USD), please send me an e-mail at
 and I will reply with my mailing address.
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="WUQ6Q2QC8EVDA">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/fr_CA/i/scr/pixel.gif" width="1" height="1">
-</form>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WUQ6Q2QC8EVDA"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" alt="PayPal - The safer, easier way to pay online!"></a>
 
 The above method of donating is secure. PayPal guarantees your privacy and security.
 I never receive details of your payment other than the amount, your name, e-mail address,
