@@ -22,6 +22,17 @@ limit cases to guarantee that all functions behave as specified by the C standar
 
 - On-line help is available [here](https://machinecognitis.github.io/C.math.NET/).
 
+### Latest Build
+
+The build file includes the compiled library and the help file (.chm) ready to be included in your project.
+The library targets the .NET Framework 2.0, so it can be used with all newer versions of the .NET Framework.
+For other builds, see the [Releases](https://github.com/MachineCognitis/C.math.NET/releases) page.
+
+- [C.math.NET.v1.0.build.zip](https://github.com/MachineCognitis/C.math.NET/releases/download/v1.0/C.math.NET.v1.0.build.zip).
+
+**NOTE**: On some systems, the content of the ZIP file may be blocked. To unblock it, right click on the
+ZIP file, select Properties, and click on the Unblock button, if it is present.
+
 ### Making a Donation
 
 You can make a donation to support this project by clicking on the PayPal Donate button below.
