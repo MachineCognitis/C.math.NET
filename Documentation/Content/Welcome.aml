@@ -12,14 +12,14 @@
         functions that are missing from the .NET framework.
         Functions include among others:
         <codeEntityReference autoUpgrade="true">M:C.math.frexp(System.Double,System.Int32@)</codeEntityReference>,
-        <link xlink:href="6c69efac-8d3c-7c31-f0c5-930b73593c0e">ilogb</link>,
-        <link xlink:href="35eead45-7bb4-88c5-0f75-278b2cbc94a7">ldexp</link>,
-        <link xlink:href="5f67d96e-daa3-cd30-9384-1cda9ebf3f8a">logb</link>,
-        <link xlink:href="bedc19b9-8091-4a47-c967-9092577c1dd7">scalbn</link>,
-        <link xlink:href="cd5217b7-7396-95ed-e4b7-0702efbd860d">copysign</link>,
-        <link xlink:href="65f00e22-a956-ec37-9e75-4594cb42d6d2">nextafter</link>,
-        <link xlink:href="e64fb421-ebf8-8796-d5d0-159ce7435c91">isunordered</link>, and
-        <link xlink:href="63a4a916-1492-dedf-c8fe-0e01aff401f4">fpclassify</link>.
+        <codeEntityReference autoUpgrade="true">M:C.math.ilogb(System.Double)</codeEntityReference>,
+        <codeEntityReference autoUpgrade="true">M:C.math.ldexp(System.Double,System.Int32)</codeEntityReference>,
+        <codeEntityReference autoUpgrade="true">M:C.math.logb(System.Double)</codeEntityReference>,
+        <codeEntityReference autoUpgrade="true">M:C.math.scalbn(System.Double,System.Int32)</codeEntityReference>,
+        <codeEntityReference autoUpgrade="true">M:C.math.copysign(System.Double,System.Double)</codeEntityReference>,
+        <codeEntityReference autoUpgrade="true">M:C.math.nextafter(System.Double,System.Double)</codeEntityReference>,
+        <codeEntityReference autoUpgrade="true">M:C.math.isunordered(System.Double,System.Double)</codeEntityReference>, and
+        <codeEntityReference autoUpgrade="true">M:C.math.fpclassify(System.Double)</codeEntityReference>.
         Both double and single precision functions are implemented.
         All functions are static and their names follow the
         <externalLink>
