@@ -30,14 +30,15 @@
       <para>
         All functions have been thoroughly tested using a large set of unit tests that cover all
         limit cases to guarantee that all functions behave as specified by the C standard.
+        <externalLink>
+          <linkText>CGitHub</linkText>
+          <linkUri>https://github.com/MachineCognitis/C.math.NET/</linkUri>
+        </externalLink>
+
       </para>
 		</introduction>
 
 		<relatedTopics>
-      <externalLink>
-        <linkText>CGitHub</linkText>
-        <linkUri>https://github.com/MachineCognitis/C.math.NET/</linkUri>
-      </externalLink>
       <externalLink>
         <linkText>C Standard</linkText>
         <linkUri>http://en.cppreference.com/w/c/numeric/math</linkUri>
