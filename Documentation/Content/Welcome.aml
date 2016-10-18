@@ -33,29 +33,6 @@
       </para>
 		</introduction>
 
-		<section>
-			<title>Making a Donation</title>
-			<content>
-				<para>
-          You can make a donation to support this project by clicking on the PayPal Donate button below.
-          PayPal guarantees your privacy and security. I will not receive any details about your payment
-          other than the amount, and your name.
-        </para>
-
-        <para>
-          <externalLink>
-            <linkText>Donate</linkText>
-            <linkUri>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=WUQ6Q2QC8EVDA</linkUri>
-            <!--<linkAlternateText>PayPal - The safer, easier way to pay online!</linkAlternateText>-->
-          </externalLink>
-          <!--<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WUQ6Q2QC8EVDA">
-          <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" alt="PayPal - The safer, easier way to pay online!">
-        </a>-->
-        </para>
-        
-			</content>
-		</section>
-
 		<relatedTopics>
       <externalLink>
         <linkText>C Standard</linkText>
