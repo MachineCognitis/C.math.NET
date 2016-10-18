@@ -11,7 +11,7 @@
         </externalLink>
         functions that are missing from the .NET framework.
         Functions include among others:
-        <codeEntityReference>M:C.math.frexp(double, ref int)</codeEntityReference>,
+        <codeEntityReference autoUpgrade="true">M:C.math.frexp(double,int)</codeEntityReference>,
         <link xlink:href="6c69efac-8d3c-7c31-f0c5-930b73593c0e">ilogb</link>,
         <link xlink:href="35eead45-7bb4-88c5-0f75-278b2cbc94a7">ldexp</link>,
         <link xlink:href="5f67d96e-daa3-cd30-9384-1cda9ebf3f8a">logb</link>,
