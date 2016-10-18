@@ -31,8 +31,8 @@
         All functions have been thoroughly tested using a large set of unit tests that cover all
         limit cases to guarantee that all functions behave as specified by the C standard.
         <externalLink>
-          <linkText>CGitHub</linkText>
-          <linkUri>http://www.google.com</linkUri>
+          <linkText>C Standard</linkText>
+          <linkUri>http://en.cppreference.com/w/c/numeric/math</linkUri>
         </externalLink>
 
       </para>
