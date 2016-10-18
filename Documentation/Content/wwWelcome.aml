@@ -34,17 +34,14 @@
 		</introduction>
 
 		<relatedTopics>
-      
       <externalLink>
         <linkText>C Standard</linkText>
         <linkUri>http://en.cppreference.com/w/c/numeric/math</linkUri>
       </externalLink>
-      
       <externalLink>
         <linkText>C.math.NET Library on GitHub</linkText>
         <linkUri>https://github.com/MachineCognitis/C.math.NET</linkUri>
       </externalLink>
-      
     </relatedTopics>
 	
   </developerConceptualDocument>
