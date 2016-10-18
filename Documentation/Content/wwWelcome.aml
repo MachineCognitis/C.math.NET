@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topic id="846f5c8a-6cba-433e-9f18-cde2ff5695cd" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		
+    <introduction>
+			<para>
+        The C.math.NET library implements several
+        <externalLink>
+          <linkText>C Standard</linkText>
+          <linkUri>http://en.cppreference.com/w/c/numeric/math</linkUri>
+        </externalLink>
+        functions that are missing from the .NET framework.
+        Functions include among others:
+        <codeEntityReference autoUpgrade="true">M:C.math.frexp(System.Double,System.Int32@)</codeEntityReference>,
+        <codeEntityReference autoUpgrade="true">M:C.math.ilogb(System.Double)</codeEntityReference>,
+        <codeEntityReference autoUpgrade="true">M:C.math.ldexp(System.Double,System.Int32)</codeEntityReference>,
+        <codeEntityReference autoUpgrade="true">M:C.math.logb(System.Double)</codeEntityReference>,
+        <codeEntityReference autoUpgrade="true">M:C.math.scalbn(System.Double,System.Int32)</codeEntityReference>,
+        <codeEntityReference autoUpgrade="true">M:C.math.copysign(System.Double,System.Double)</codeEntityReference>,
+        <codeEntityReference autoUpgrade="true">M:C.math.nextafter(System.Double,System.Double)</codeEntityReference>,
+        <codeEntityReference autoUpgrade="true">M:C.math.isunordered(System.Double,System.Double)</codeEntityReference>, and
+        <codeEntityReference autoUpgrade="true">M:C.math.fpclassify(System.Double)</codeEntityReference>.
+        Both double and single precision functions are implemented.
+        All functions are static and their names follow the
+        <externalLink>
+          <linkText>C Standard</linkText>
+          <linkUri>http://en.cppreference.com/w/c/numeric/math</linkUri>
+        </externalLink>.
+      </para>
+      <para>
+        All functions have been thoroughly tested using a large set of unit tests that cover all
+        limit cases to guarantee that all functions behave as specified by the C standard.
+      </para>
+		</introduction>
+
+		<relatedTopics>
+      
+      <externalLink>
+        <linkText>C Standard</linkText>
+        <linkUri>http://en.cppreference.com/w/c/numeric/math</linkUri>
+      </externalLink>
+      
+      <externalLink>
+        <linkText>C.math.NET Library on GitHub</linkText>
+        <linkUri>https://github.com/MachineCognitis/C.math.NET</linkUri>
+      </externalLink>
+      
+    </relatedTopics>
+	
+  </developerConceptualDocument>
+</topic>
