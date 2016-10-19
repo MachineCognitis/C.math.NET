@@ -15,12 +15,9 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="C.math.NET.nuspec" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ReadMe.txt">
-      <SubType>Content</SubType>
-    </None>
+    <Compile Include="C.math.NET.nuspec">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\NuBuild\v1\NuBuild.targets" />
 </Project>

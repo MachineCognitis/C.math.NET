@@ -21,6 +21,9 @@ EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "docs", "docs\docs.shproj", "{39B1E62E-D491-495F-8E90-B7D09B76D8A1}"
 EndProject
 Project("{E09DD79A-4488-4AB9-8D3F-A7EEE78BF432}") = "NuGet", "NuGet\NuGet.nuproj", "{B51A83D0-21F1-454A-A62C-8173DB309348}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C5AABF7-D18F-4AFF-9283-26DC0B4EDF58} = {9C5AABF7-D18F-4AFF-9283-26DC0B4EDF58}
+	EndProjectSection
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "packages", "packages\packages.shproj", "{7C014AD2-2519-4B17-A89E-26A7C6D0BD50}"
 EndProject
