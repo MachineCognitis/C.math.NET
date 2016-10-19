@@ -3,7 +3,7 @@
     <metadata>
         <id>C.math.NET</id>
         <version>1.1</version>
-        <title>Implements the C Standard functions frexp, ldexp, logb, scalbn, copysign, nextafter, and alike, that are missing from the .NET Framework.</title>
+        <title>Implements several C Standard mathematical functions (frexp, logb, ldexp, nextafter, etc.) that are missing from the .NET Framework.</title>
         <authors>Robert Baron (Machine Cognitis)</authors>
         <owners>Robert Baron (Machine Cognitis)</owners>
         <licenseUrl>https://github.com/MachineCognitis/C.math.NET/blob/master/LICENSE.md</licenseUrl>
