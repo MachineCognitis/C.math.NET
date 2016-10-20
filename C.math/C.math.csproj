@@ -7,8 +7,8 @@
     <ProjectGuid>{9C5AABF7-D18F-4AFF-9283-26DC0B4EDF58}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MachineCognitis.C</RootNamespace>
-    <AssemblyName>MachineCognitis.C.math</AssemblyName>
+    <RootNamespace>C</RootNamespace>
+    <AssemblyName>C.math</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -24,7 +24,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
-    <DocumentationFile>bin\Debug\MachineCognitis.C.math.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\C.math.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -34,7 +34,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DocumentationFile>bin\Release\MachineCognitis.C.math.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\C.math.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

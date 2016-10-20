@@ -4,7 +4,7 @@ using System;
 // Declare assembly as CLS compliant.
 [assembly: System.CLSCompliant(true)]
 
-namespace MachineCognitis.C
+namespace C
 {
     /// <summary>
     /// Implements several <a href="http://en.cppreference.com/w/c/numeric/math">C Standard</a> mathematical functions that are missing from the .NET framework.

@@ -18,9 +18,9 @@
 
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MachineCognitis.C;
+using C;
 
-namespace MachineCognitis.UnitTests.C
+namespace UnitTests.C
 {
     [TestClass]
     public class mathtests
