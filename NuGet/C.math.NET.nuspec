@@ -14,7 +14,7 @@
 All functions have been thoroughly tested using a large set of unit tests that cover all limit cases to guarantee that all functions behave as specified by the C standard.
 
 Supported Platform: .NET Framework 2.0+</description>
-        <summary>Implements several C Standard mathematical functions (frexp, logb, ldexp, nextafter, etc.) that are missing from the .NET Framework.</summary>
+        <summary>C.math.NET</summary>
         <releaseNotes>Initial release.</releaseNotes>
         <copyright>Copyright (c) 2016 Robert Baron, Machine Cognitis</copyright>
         <tags>fpclassify isfinite isinf isnan isnormal signbit frexp ilogb ldexp logb scalbn scalbln copysign nextafter nexttoward significand isunordered</tags>
