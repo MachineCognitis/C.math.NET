@@ -36,7 +36,7 @@ namespace C
         public const int FP_ILOGB0 = (-2147483647);
 
         /// <summary>
-        /// Value returned by <see cref="math.ilogb(double)"/> or <see cref="ilogb(float)"/> when its input argument is <c><see cref="System.Double.NaN"/> or <see cref="System.Single.NaN"/> respectively.</c>.
+        /// Value returned by <see cref="math.ilogb(double)"/> or <see cref="ilogb(float)"/> when its input argument is <see cref="System.Double.NaN"/> or <see cref="System.Single.NaN"/> respectively.
         /// </summary>
         public const int FP_ILOGBNAN = (2147483647);
 
